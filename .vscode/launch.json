@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Workout App (Android)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "android",
+      "args": [
+        "--dart-define",
+        "GEMINI_API_KEY=YOUR_ACTUAL_API_KEY_HERE"
+      ]
+    },
+    {
+      "name": "Workout App (Web)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define",
+        "GEMINI_API_KEY=YOUR_ACTUAL_API_KEY_HERE"
+      ]
+    }
+  ]
+}
